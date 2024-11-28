@@ -2,9 +2,9 @@
 
 The host discovery in a local network is a crucial task in network management and pentesting. There are many tools and techniques used to accomplish this task, they go from port scanning to network traffic analysis.
 
-The tools we will be using are [nmap](#NMap), [arp-scan](#Arp-Scan), [netdiscover](#NetDiscover), [masscan]
+The tools we will be using are [nmap](#nmap), [arp-scan](#arp-scan), [netdiscover](#netdiscover), [masscan](masscan)
 
-## Port Scan
+## Scanning through Ports
 
 ### NMap
 
@@ -23,7 +23,7 @@ To use `masscan` we have to specify the port list to use with the parameter `-p<
 masscan -p21,22,139,445 -Pn 10.0.0.0/24 --rate=5000
 ```
 
-## ARP Scan
+## Scanning through ARP
 
 ### Arp-Scan
 

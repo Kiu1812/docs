@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reconnaissance/External/host_discovery.md",
+                "file": "Reconnaissance/External/index.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "host_discovery"
+              "title": "index"
             }
           }
         ]
@@ -162,17 +162,18 @@
       "cmdr:File Hider: Toggle Visibility": false
     }
   },
-  "active": "e9e985e0b441001c",
+  "active": "9e3074bd046d8f59",
   "lastOpenFiles": [
+    "Reconnaissance/index.md",
     "Reconnaissance/External/index.md",
+    "README.md",
+    "Tools/BurpSuite.md",
     "Reconnaissance/External/host_discovery.md",
     "Reconnaissance/Internal/Linux/index.md",
-    "README.md",
     "Reconnaissance/Internal/Windows/index.md",
     "Reconnaissance/Internal/index.md",
     "Reconnaissance/Internal/Windows",
     "Reconnaissance/Internal/Linux",
-    "Reconnaissance/index.md",
     "Reconnaissance/Internal",
     "Reconnaissance/External",
     "Reconnaissance",
@@ -180,7 +181,6 @@
     "Local_Enumeration.md",
     "External/External.md",
     "External",
-    "Tools/BurpSuite.md",
     "Tools",
     "Welcome.md"
   ]
