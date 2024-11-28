@@ -1,5 +1,8 @@
 # Index
 
+# 🚧 Work in Progress (WIP)
+This documentation is still under construction. Many sections are missing or incomplete.
+
 ## 🔍 Research and Discovery
 - [External Reconnaissance](Reconnaissance/External/)  
   *(OSINT, network scanning, service enumeration, etc.)*
