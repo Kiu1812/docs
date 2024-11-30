@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reconnaissance/External/index.md",
+                "file": "Reconnaissance/External/host_discovery.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "host_discovery"
             }
           }
         ]
@@ -164,15 +164,16 @@
   },
   "active": "9e3074bd046d8f59",
   "lastOpenFiles": [
-    "README.md~",
+    "Reconnaissance/External/os_identification.md",
     "Reconnaissance/index.md",
     "Reconnaissance/External/index.md",
+    "Reconnaissance/Internal/index.md",
+    "Reconnaissance/External/host_discovery.md",
+    "README.md~",
     "README.md",
     "Tools/BurpSuite.md",
-    "Reconnaissance/External/host_discovery.md",
     "Reconnaissance/Internal/Linux/index.md",
     "Reconnaissance/Internal/Windows/index.md",
-    "Reconnaissance/Internal/index.md",
     "Reconnaissance/Internal/Windows",
     "Reconnaissance/Internal/Linux",
     "Reconnaissance/Internal",

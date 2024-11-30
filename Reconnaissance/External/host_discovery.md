@@ -1,8 +1,10 @@
 # Host Discovery
 
+---
+
 The host discovery in a local network is a crucial task in network management and pentesting. There are many tools and techniques used to accomplish this task, they go from port scanning to network traffic analysis.
 
-The tools we will be using are [nmap](#nmap), [arp-scan](#arp-scan), [netdiscover](#netdiscover), [masscan](masscan)
+The tools we will be using are [nmap](#nmap), [arp-scan](#arp-scan), [netdiscover](#netdiscover), [masscan](#masscan)
 
 ## Scanning through Ports
 

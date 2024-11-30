@@ -4,3 +4,5 @@ This section covers the external reconnaissance phase, where you gather informat
 ## Sections
 - [Host Discovery](host_discovery.md)  
   *Techniques for discovering active hosts on the network.*
+- [OS Identification](os_identification.md)  
+  *Techniques for identifying the operating system of a target host.*
