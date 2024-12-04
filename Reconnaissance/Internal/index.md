@@ -1,4 +1,3 @@
-
 This section is divided into Windows and Linux reconnaissance. Choose a specific topic below for more details.
 
 ## Windows
@@ -8,6 +7,6 @@ This section is divided into Windows and Linux reconnaissance. Choose a specific
 - [Privilege Escalation](Windows/Privilege_Escalation.md)
 
 ## Linux
-- [Local Enumeration](Linux/Local_Enumeration.md)
-- [Service Enumeration](Linux/Service_Enumeration.md)
-- [Privilege Escalation](Linux/Privilege_Escalation.md)
+- [Users](Linux.md#users)
+- [Groups](Linux.md#groups)
+- [Processes](Linux.md#processes)
