@@ -7,6 +7,6 @@ This section is divided into Windows and Linux reconnaissance. Choose a specific
 - [Privilege Escalation](Windows/Privilege_Escalation.md)
 
 ## Linux
-- [Users](Linux.md#users)
-- [Groups](Linux.md#groups)
-- [Processes](Linux.md#processes)
+- [Users](linux.md#users)
+- [Groups](linux.md#groups)
+- [Processes](linux.md#processes)

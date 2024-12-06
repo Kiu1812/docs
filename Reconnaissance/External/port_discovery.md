@@ -1,4 +1,3 @@
-
 # Port Discovery and Enumeration
 
 ---
@@ -11,20 +10,21 @@ The tool is capable of detecting a wide range of devices, including routers, web
 
 The most common parameters in Nmap are:
 
-- `-p <port-range>`: Only check specified ports, separated by comma or a hypen to specify a range. We can use `-p -` to specify all ports.
-- `--top-ports <n>`: Scan this amount of most common ports.
-- `--open`: Show only open ports, this will hide the `filtered` ones.
-- `-n`: Don't do DNS resolution.
-- `-v`: Verbose, increase the amount of `v` to increase the verbose level.
-- `-T[0-5]`:  Set a timing template. Higher values indicates a more aggressive scan.
-- `-sT`: TCP connect scan. Recommended to use only if *TCP SYN scan* fails.
-- `-sS`: TCP SYN scan. Most common and stealth because it does not complete the connection.
-- `-sU`: UDP scan. To scan through UDP instead of TCP.
-- `-sV`: Version detection of the services running in the opened ports.
-- `-sC`: Runs a set of scripts with the scan to help in the reconnaissance.
-- `-Pn`: Prevents Nmap from doing a ping to the remote machine.
-- `-O`: Enable OS detection.
-
+| **Parameter**       | **Description**                                                                                     |
+|----------------------|-----------------------------------------------------------------------------------------------------|
+| -p <port-range>      | Only check specified ports, separated by commas or a hyphen to specify a range. Use -p - for all ports. |
+| --top-ports <n>      | Scan the specified number of most common ports.                                                    |
+| --open               | Show only open ports, hiding the filtered ones.                                                    |
+| -n                   | Disable DNS resolution.                                                                            |
+| -v                   | Verbose mode. Increase the number of v to raise the verbosity level.                               |
+| -T[0-5]              | Set a timing template. Higher values indicate more aggressive scans.                               |
+| -sT                  | TCP connect scan. Recommended when TCP SYN scan fails.                                            |
+| -sS                  | TCP SYN scan. The most common and stealthiest scan, as it does not complete the connection.         |
+| -sU                  | UDP scan, used to scan through UDP instead of TCP.                                                 |
+| -sV                  | Detect the version of the services running on the open ports.                                      |
+| -sC                  | Run a set of scripts during the scan to assist in reconnaissance.                                  |
+| -Pn                  | Prevent Nmap from pinging the remote machine.                                                      |
+| -O                   | Enable OS detection.                                                                               |
 
 ### Examples of execution
 
