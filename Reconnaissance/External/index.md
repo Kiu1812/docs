@@ -1,3 +1,6 @@
+# External Reconnaissance Index
+
+---
 
 This section covers the external reconnaissance phase, where you gather information about the target from publicly available sources and external services.
 
