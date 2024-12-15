@@ -1,5 +1,7 @@
 # Linux
 
+---
+
 The most important part once we finally penetrated into a machine is to enumerate everything we can.
 By enumerating everything it becomes easier, among other this, to identify the potential ways to escalate our privileges as an user.
 
