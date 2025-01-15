@@ -30,28 +30,28 @@ The most common parameters in Nmap are:
 
  Scan the first 1000 ports:
 ```bash
-Nmap -p1-1000 10.0.0.1
+nmap -p1-1000 10.0.0.1
 ```
 
 <br>
 
 Scan all ports:
 ```bash
-Nmap -p- 10.0.0.0
+nmap -p- 10.0.0.0
 ```
 
 <br>
 
 Scan the 500 most common ports:
 ```bash
-Nmap --top-ports 500 10.0.0.1
+nmap --top-ports 500 10.0.0.1
 ```
 
 <br>
 
 Fast scan to search for opened ports, no DNS resolution and assuming the host is online. This is a common scan if we don't care about them detecting us.
 ```bash
-Nmap -p- -sS -T5 --open -n -Pn 10.0.0.1
+nmap -p- -sS -T5 --open -n -Pn 10.0.0.1
 ```
 
 

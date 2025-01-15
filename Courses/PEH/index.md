@@ -16,7 +16,7 @@ This section provides detailed notes and resources for each module of the [Pract
 - [Utilizing Social Media](information_gathering.md#)
 
 ### 📡 Scanning & Enumeration
-- [Scanning with Nmap](ScanningAndEnumeration/Nmap.md)
+- [Scanning with Nmap](ScanningAndEnumeration/nmap.md)
 - [Enumerating HTTP and HTTPS](ScanningAndEnumeration/Enumerating_HTTP_HTTPS.md)
 - [Enumerating SMB](ScanningAndEnumeration/Enumerating_SMB.md)
 - [Enumerating SSH](ScanningAndEnumeration/Enumerating_SSH.md)
