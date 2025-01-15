@@ -16,13 +16,11 @@ This section provides detailed notes and resources for each module of the [Pract
 - [Utilizing Social Media](information_gathering.md#)
 
 ### 📡 Scanning & Enumeration
-- [Installing Kioptrix](ScanningAndEnumeration/Installing_Kioptrix.md)
 - [Scanning with Nmap](ScanningAndEnumeration/Nmap.md)
 - [Enumerating HTTP and HTTPS](ScanningAndEnumeration/Enumerating_HTTP_HTTPS.md)
 - [Enumerating SMB](ScanningAndEnumeration/Enumerating_SMB.md)
 - [Enumerating SSH](ScanningAndEnumeration/Enumerating_SSH.md)
 - [Researching Potential Vulnerabilities](ScanningAndEnumeration/Researching_Vulnerabilities.md)
-- [Our Notes So Far](ScanningAndEnumeration/Notes.md)
 
 ### 🔓 Exploitation Basics
 - [Reverse Shells vs Bind Shells](ExploitationBasics/Reverse_vs_Bind_Shells.md)
@@ -31,7 +29,6 @@ This section provides detailed notes and resources for each module of the [Pract
 - [Manual Exploitation](ExploitationBasics/Manual_Exploitation.md)
 - [Brute Force Attacks](ExploitationBasics/Brute_Force.md)
 - [Credential Stuffing and Password Spraying](ExploitationBasics/Credential_Stuffing.md)
-- [Our Notes, Revisited](ExploitationBasics/Notes_Revisited.md)
 
 ### 🖥 Active Directory
 #### Overview
