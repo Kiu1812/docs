@@ -4,9 +4,9 @@
 This documentation is still under construction. Many sections are missing or incomplete.
 
 ## 🔍 Research and Discovery
-- [External Reconnaissance](Reconnaissance/External/index.md)
+- [External Reconnaissance](01%20-%20Areas/Cibersecurity/Reconnaissance/External/index.md)
   *(OSINT, network scanning, service enumeration, etc.)*
-- [Internal Reconnaissance](Reconnaissance/Internal/index.md)
+- [Internal Reconnaissance](01%20-%20Areas/Cibersecurity/Reconnaissance/Internal/index.md)
   *(Post-compromise enumeration, privilege escalation paths, etc.)*
 
 ## 🛡 Analysis and Exploitation
@@ -16,7 +16,7 @@ This documentation is still under construction. Many sections are missing or inc
   *(Privilege escalation, lateral movement, post-exploitation techniques.)*
 
 ## 🛠 Tools and Configuration
-- [Tools](Tools/index.md)
+- [Tools](01%20-%20Areas/Cibersecurity/Tools/index.md)
   *(Guides for configuring and using tools like Nmap, Burp Suite, etc.)*
 
 ## 📂 Resources and Learning
@@ -28,7 +28,7 @@ This documentation is still under construction. Many sections are missing or inc
     - [Other Platforms](WriteUps/Others/index.md)
       *(Write-ups for CTFs or challenges from other platforms.)*
 
-- [Courses and Training](Courses/index.md)
+- [Courses and Training](01%20-%20Areas/Cibersecurity/Courses/index.md)
   *(Notes from PEH, eJPT, and other courses.)*
 
 ## 🚧 Personal Projects

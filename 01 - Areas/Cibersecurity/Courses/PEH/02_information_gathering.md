@@ -1,5 +1,5 @@
 
-# Information Gathering (Reconnaissance)
+# 🔍 Information Gathering (Reconnaissance)
 
 ---
 

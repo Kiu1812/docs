@@ -1,2 +1,6 @@
-.obsidian
+.obsidian/workspace.json
+.obsidian/appearance.json
+.obsidian/vault.json
+.obsidian/plugins/
+.obsidian/themes/
 style.css
