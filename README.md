@@ -1,43 +1,94 @@
-# Index
+# 🧠 Personal Knowledge Base
 
-# 🚧 Work in Progress (WIP)
-This documentation is still under construction. Many sections are missing or incomplete.
+Welcome to my knowledge base — a structured log of everything I'm learning and exploring, mostly in cybersecurity, but also including topics like programming and artificial intelligence.
 
-## 🔍 Research and Discovery
-- [External Reconnaissance](01%20-%20Areas/Cibersecurity/Reconnaissance/External/index.md)
-  *(OSINT, network scanning, service enumeration, etc.)*
-- [Internal Reconnaissance](01%20-%20Areas/Cibersecurity/Reconnaissance/Internal/index.md)
-  *(Post-compromise enumeration, privilege escalation paths, etc.)*
+This vault is built with a focus on hands-on learning, synthesis, and organization of both theory and practice. It includes notes from courses, labs, research, documentation, and self-driven projects.
 
-## 🛡 Analysis and Exploitation
-- [External Exploitation](Exploitation/External/index.md)
-  *(Vulnerability exploitation, web app attacks, remote exploits, etc.)*
-- [Internal Exploitation](Exploitation/Internal/index.md)
-  *(Privilege escalation, lateral movement, post-exploitation techniques.)*
+> 🚧 Under construction: many sections are incomplete or pending review.
 
-## 🛠 Tools and Configuration
-- [Tools](01%20-%20Areas/Cibersecurity/Tools/index.md)
-  *(Guides for configuring and using tools like Nmap, Burp Suite, etc.)*
+---
 
-## 📂 Resources and Learning
-- [WriteUps](WriteUps/index.md)
-    - [HackTheBox](WriteUps/HackTheBox/index.md)
-      *(Challenge write-ups, retired machines, walkthroughs, etc.)*
-    - [HackMyVM](WriteUps/HackMyVM/index.md)
-      *(Custom virtual machine write-ups, community challenges, etc.)*
-    - [Other Platforms](WriteUps/Others/index.md)
-      *(Write-ups for CTFs or challenges from other platforms.)*
+## 🗂 Structure Overview
 
-- [Courses and Training](01%20-%20Areas/Cibersecurity/Courses/index.md)
-  *(Notes from PEH, eJPT, and other courses.)*
+My vault follows a simplified [PARA](https://fortelabs.com/blog/para/) structure:
+
+- 01 - Areas  
+  Core knowledge domains I’m actively studying (e.g. Cybersecurity, Programming, AI)
+- 02 - Projects  
+  Learning-oriented personal projects and experiments
+- 03 - Resources  
+  Long-term reference material and useful documents
+- 04 - Daily  
+  Logs, reflections, and ongoing work
+- 99 - META  
+  System structure, templates and vault maintenance
+
+---
+
+## 🎓 Courses and Certifications
+
+Notes and exercises from learning platforms and certifications.
+
+- [TCM Security](01%20-%20Areas/Cibersecurity/Courses/TCM%20Academy/index.md)  
+  ↳ [PEH – Practical Ethical Hacking](01%20-%20Areas/Cibersecurity/Courses/TCM%20Academy/PEH/index.md)
+
+- [Hack The Box Academy](01%20-%20Areas/Cibersecurity/Courses/HTB%20Academy/index.md)  
+  ↳ [Introduction to Active Directory](01%20-%20Areas/Cibersecurity/Courses/HTB%20Academy/Introduction%20to%20Active%20Directory/index.md)
+
+View: ▶️ [Courses Overview](01%20-%20Areas/Cibersecurity/Courses/overview.md)
+
+---
+
+## 🧭 Cybersecurity
+
+Curated notes and hands-on documentation across different phases of offensive security:
+
+### 🛰 External Reconnaissance  
+[View](01%20-%20Areas/Cibersecurity/Offensive/Reconnaissance/External/index.md)  
+OSINT, service discovery, web scanning, identification.
+
+### 🧱 Internal Reconnaissance  
+[View](01%20-%20Areas/Cibersecurity/Offensive/Reconnaissance/Internal/index.md)  
+Post-compromise enumeration, privilege escalation, lateral movement.
+
+### 🔧 Tools & Utilities  
+[View](01%20-%20Areas/Cibersecurity/Offensive/Tools/index.md)  
+Tool usage tutorials: Nmap, Burp Suite, Gobuster, etc.
+
+---
+
+## 🧪 Labs and Writeups
+
+Writeups and documentation from external challenges and CTFs:
+
+- 🖥 [HackTheBox](WriteUps/HackTheBox/index.md)
+- 💻 [HackMyVM](WriteUps/HackMyVM/index.md)
+- 🔬 [Other Platforms](WriteUps/Others/index.md)
+
+---
+
+## 👨‍💻 Programming
+
+A growing space for programming-related topics, mainly in Python and shell scripting — often used for automating offensive or forensic tasks.
+
+- 🚧 [Programming Area](01%20-%20Areas/Programming/)
+
+---
+
+## 🤖 Artificial Intelligence
+
+Explorations and notes related to AI foundations, LLMs, and applied machine learning in cybersecurity contexts.
+
+- 🚧 [AI Notes](01%20-%20Areas/AI/)
+
+---
 
 ## 🚧 Personal Projects
-- [Ongoing Projects](Personal_Projects/index.md)
 
-## 📜 Miscellaneous
-- [Technical Glossary](glossary.md)
-- [General Notes](general_notes.md)
+Notes and structure for self-driven learning or automation projects.
 
+- 🔬 [Active Projects](02%20-%20Projects/index.md)
 
+---
 
-
+> Built, broken, and rebuilt by Oriol 🚀
