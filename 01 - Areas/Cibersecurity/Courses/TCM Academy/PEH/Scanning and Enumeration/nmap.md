@@ -1,6 +1,0 @@
-
-# Scanning with Nmap
-
----
-
-

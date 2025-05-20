@@ -12,15 +12,15 @@ This vault is built with a focus on hands-on learning, synthesis, and organizati
 
 My vault follows a simplified [PARA](https://fortelabs.com/blog/para/) structure:
 
-- 01 - Areas  
+- 01 - Areas
   Core knowledge domains I’m actively studying (e.g. Cybersecurity, Programming, AI)
-- 02 - Projects  
+- 02 - Projects
   Learning-oriented personal projects and experiments
-- 03 - Resources  
+- 03 - Resources
   Long-term reference material and useful documents
-- 04 - Daily  
+- 04 - Daily
   Logs, reflections, and ongoing work
-- 99 - META  
+- 99 - META
   System structure, templates and vault maintenance
 
 ---
@@ -29,13 +29,7 @@ My vault follows a simplified [PARA](https://fortelabs.com/blog/para/) structure
 
 Notes and exercises from learning platforms and certifications.
 
-- [TCM Security](01%20-%20Areas/Cibersecurity/Courses/TCM%20Academy/index.md)  
-  ↳ [PEH – Practical Ethical Hacking](01%20-%20Areas/Cibersecurity/Courses/TCM%20Academy/PEH/index.md)
-
-- [Hack The Box Academy](01%20-%20Areas/Cibersecurity/Courses/HTB%20Academy/index.md)  
-  ↳ [Introduction to Active Directory](01%20-%20Areas/Cibersecurity/Courses/HTB%20Academy/Introduction%20to%20Active%20Directory/index.md)
-
-View: ▶️ [Courses Overview](01%20-%20Areas/Cibersecurity/Courses/overview.md)
+View: ▶️ [Courses Overview](01%20-%20Areas/courses_overview.md)
 
 ---
 
@@ -43,16 +37,16 @@ View: ▶️ [Courses Overview](01%20-%20Areas/Cibersecurity/Courses/overview.md
 
 Curated notes and hands-on documentation across different phases of offensive security:
 
-### 🛰 External Reconnaissance  
-[View](01%20-%20Areas/Cibersecurity/Offensive/Reconnaissance/External/index.md)  
+### 🛰 External Reconnaissance
+[View](01%20-%20Areas/Cibersecurity/Offensive/Reconnaissance/External/index.md)
 OSINT, service discovery, web scanning, identification.
 
-### 🧱 Internal Reconnaissance  
-[View](01%20-%20Areas/Cibersecurity/Offensive/Reconnaissance/Internal/index.md)  
+### 🧱 Internal Reconnaissance
+[View](01%20-%20Areas/Cibersecurity/Offensive/Reconnaissance/Internal/index.md)
 Post-compromise enumeration, privilege escalation, lateral movement.
 
-### 🔧 Tools & Utilities  
-[View](01%20-%20Areas/Cibersecurity/Offensive/Tools/index.md)  
+### 🔧 Tools & Utilities
+[View](01%20-%20Areas/Cibersecurity/Offensive/Tools/index.md)
 Tool usage tutorials: Nmap, Burp Suite, Gobuster, etc.
 
 ---

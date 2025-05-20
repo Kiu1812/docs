@@ -2,5 +2,9 @@
   "readableLineLength": false,
   "alwaysUpdateLinks": true,
   "newLinkFormat": "relative",
-  "useMarkdownLinks": true
+  "useMarkdownLinks": true,
+  "userIgnoreFilters": [
+    "99 - META/",
+    "07 - DRAFT/"
+  ]
 }

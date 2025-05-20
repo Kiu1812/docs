@@ -1,12 +1,76 @@
 {
   "collapse-filter": false,
   "search": "",
-  "showTags": true,
-  "showAttachments": true,
+  "showTags": false,
+  "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": true,
-  "colorGroups": [],
+  "colorGroups": [
+    {
+      "query": "path:\"01 - Areas\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5366249
+      }
+    },
+    {
+      "query": "path:\"02 - Projects\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5551864
+      }
+    },
+    {
+      "query": "path:\"03 - Resources\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 4422899
+      }
+    },
+    {
+      "query": "path:\"04 - Daily\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 9717496
+      }
+    },
+    {
+      "query": "path:\"05\"",
+      "color": {
+        "a": 1,
+        "rgb": 13193965
+      }
+    },
+    {
+      "query": "path:\"06\"",
+      "color": {
+        "a": 1,
+        "rgb": 15028123
+      }
+    },
+    {
+      "query": "path:\"07 - DRAFT\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14890590
+      }
+    },
+    {
+      "query": "path:\"99 - META\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5330792
+      }
+    },
+    {
+      "query": "file:README.md",
+      "color": {
+        "a": 1,
+        "rgb": 16767070
+      }
+    }
+  ],
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,

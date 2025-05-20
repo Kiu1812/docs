@@ -4,7 +4,7 @@ Each folder corresponds to an individual module, and may include summaries, tech
 
 ## 🧠 HTB Academy Modules
 
-- [Introduction to Active Directory](Introduction%20to%20Active%20Directory/index.md)
+- [Introduction to Active Directory](Public/Introduction%20to%20Active%20Directory/index.md)
   Fundamentals of Active Directory and related enumeration techniques.
 
 - [File Inclusion](File%20Inclusion/index.md)
