@@ -43,3 +43,27 @@ Finally we just need to enable and restart the service.
 systemctl enable --now docker.service
 systemctl restart docker.service
 ```
+
+## Create a network
+
+The dockers will communicate between them using their own network, we need to create it by using the following command:
+
+```bash
+docker network create dockernetwork
+```
+
+Then we will assign the network for the corresponding dockers by adding the following lines into the `docker-compose.yaml` file.
+
+```yml
+services:
+	name:
+		# Content of this docker
+		networks:
+			- dockernetwork
+
+networks:
+	dockernetwork:
+		external: true
+```
+
+Note that the `ports` section will still indicate which ports do we expose on the host.

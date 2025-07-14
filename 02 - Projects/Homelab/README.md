@@ -26,7 +26,7 @@ Disks are in a [RAID-1](raid.md) status, investigation about how to implement RA
 - Twingate -> VPN Connection.
 - OpenWebUI -> AI local web interface.
 - [Grafana](grafana.md) -> Monitoring server status.
-- *Search* -> Monitoring RAID status (maybe Grafana does it). Requiremenet: Mail alerts.
+- MDADM Monitoring -> Monitors RAID status and sends mail if it fails.
 - Certbot -> Automatized renewal of LetsEncrypt certificates to use locally.
 - NAT -> Use the server as a router.
 

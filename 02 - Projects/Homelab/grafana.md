@@ -30,6 +30,27 @@ volumes:
   grafana-storage: {}
 ```
 
+To run it inside the custom docker network we use the following file:
+
+```yaml
+services:
+  grafana:
+    image: grafana/grafana-oss
+    container_name: grafana
+    restart: unless-stopped
+    ports:
+     - '3000'
+    volumes:
+      - grafana-storage:/var/lib/grafana
+    networks:
+      - dockernetwork
+volumes:
+  grafana-storage: {}
+networks:
+  dockernetwork:
+    external: true
+```
+
 To run the docker we have to run `docker compose up -d` in the same directory as the `docker-compose.yaml` file.
 
 Now the grafana docker will be up and running, listening at port 3000, we can access the web interface and login with admin/admin, it will require to update the password at first login.
