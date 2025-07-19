@@ -1,0 +1,40 @@
+/**
+ * Memory of sixty four 16-bit registers.
+ * If load is asserted, the value of the register selected by
+ * address is set to in; Otherwise, the value does not change.
+ * The value of the selected register is emitted by out.
+ */
+CHIP RAM64 {
+    IN in[16], load, address[6];
+    OUT out[16];
+
+    PARTS:
+    DMux8Way(in=load, sel=address[3..5], 
+             a=reg1load, 
+             b=reg2load, 
+             c=reg3load, 
+             d=reg4load, 
+             e=reg5load, 
+             f=reg6load, 
+             g=reg7load, 
+             h=reg8load);
+
+    RAM8(in=in, load=reg1load, address=address[0..2], out=reg1out);
+    RAM8(in=in, load=reg2load, address=address[0..2], out=reg2out);
+    RAM8(in=in, load=reg3load, address=address[0..2], out=reg3out);
+    RAM8(in=in, load=reg4load, address=address[0..2], out=reg4out);
+    RAM8(in=in, load=reg5load, address=address[0..2], out=reg5out);
+    RAM8(in=in, load=reg6load, address=address[0..2], out=reg6out);
+    RAM8(in=in, load=reg7load, address=address[0..2], out=reg7out);
+    RAM8(in=in, load=reg8load, address=address[0..2], out=reg8out);
+
+    Mux8Way16(a=reg1out,
+              b=reg2out, 
+              c=reg3out, 
+              d=reg4out, 
+              e=reg5out, 
+              f=reg6out, 
+              g=reg7out, 
+              h=reg8out,
+              sel=address[3..5], out=out);
+}
