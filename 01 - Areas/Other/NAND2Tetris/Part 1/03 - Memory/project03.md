@@ -17,7 +17,7 @@ In the third project we will be building the memory of our computer. The modules
 
 For the different RAM units we will use `MUX` and `DMUX` to select where do we write the data, feeding all inputs into all modules at the same time.
 
-The definition for this chips was explained in [memory](memory.md), so we will go directly to their implementation.
+The definition for this chips was explained in [01_memory](01_memory.md), so we will go directly to their implementation.
 
 As we have sequential bits we will not use truth table and only show the HDL files.
 
