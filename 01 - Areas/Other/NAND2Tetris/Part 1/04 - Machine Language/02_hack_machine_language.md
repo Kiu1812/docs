@@ -1,8 +1,6 @@
 ---
 tags:
 ---
----
-
 # Hack Machine Language
 
 
