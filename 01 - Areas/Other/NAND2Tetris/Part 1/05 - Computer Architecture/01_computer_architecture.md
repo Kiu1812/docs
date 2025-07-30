@@ -11,6 +11,7 @@ tags:
 The basic CPU loop consists in Fetching an instruction and then Executing it.
 
 Fetching can be achieved with the following steps.
+
 - Put the location of the next instruction into the *address* of the program memory.
 - Get the instruction code itself by reading the memory contents at that location.
 
@@ -18,6 +19,7 @@ The address of the next instruction will be stored in the `Program Counter` (PC)
 
 
 Executing the instruction means looking at the bits of the program memory and decide what to do with them.
+
 - Which arithmetic or logical instruction.
 - What memory to access.
 - If/Where to jump.
