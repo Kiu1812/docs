@@ -4,6 +4,8 @@ tags:
 
 # Project 06
 
+> To view the full code please visit the [GitHub repo](https://github.com/Kiu1812/docs/tree/main/01%20-%20Areas/Other/NAND2Tetris/Part%201/06%20-%20Assembler%20Roadmap/project).
+
 Every program inside the `examples` folder was provided by the NAND2Tetris course.
 
 `assembler` is the main file of this program. It loads all of the Symbol Tables. And parse the file provided. In two steps. The first one will loop through the input file, parsing each instruction to get it's type and field. When finding a label it will add it to the `dynamic_table` variable, which contains all the symbols for the dynamic values, like labels and variables. On the second loop it will convert all of the instructions, stored in a `tProgram` variable and save them into an output file.
