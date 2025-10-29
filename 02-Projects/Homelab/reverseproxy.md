@@ -4,8 +4,6 @@ tags:
 ---
 
 
-
-
 # Certbot
 
 First of all we need an API key for certbot to be able to control DNS of CloudFlare. We will create the API token using the `Edit DNS Zones` preset.
